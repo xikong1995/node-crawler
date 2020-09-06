@@ -1,0 +1,29 @@
+{
+    "name": "crawler",
+    "version": "1.0.0",
+    "description": "nodejs爬虫，包括不限于微博，instagram，图片和视频",
+    "main": "./src/index.js",
+    "scripts": {
+        "dev": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xikong1995/node-crawler.git"
+    },
+    "keywords": [
+        "爬虫",
+        "nodejs爬虫"
+    ],
+    "author": "zhoulei",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/xikong1995/node-crawler/issues"
+    },
+    "homepage": "https://github.com/xikong1995/node-crawler#readme",
+    "dependencies": {
+        "async": "^3.2.0",
+        "chalk": "^4.1.0",
+        "cheerio": "^1.0.0-rc.3",
+        "superagent": "^6.1.0"
+    }
+}
