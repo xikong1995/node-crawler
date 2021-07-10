@@ -16,14 +16,13 @@ nodejs 爬虫，包括不限于微博，instagram，图片和视频。
 
 ![weibo-cookie](./images/weibo-cookie.png)
 
-**填写 `SCRIPT_URI`**
+**填写 `USER_ID`**
 
 点开你要爬取数据的用户的主页，然后查看浏览器地址栏的域名，主要有两种：
 
--   一般域名：https://weibo.com/u/5653796775
--   个性域名：https://weibo.com/liuyifeiofficial
+-   域名：https://weibo.com/u/5653796775
 
-一般域名的 SCRIPT_URI 为 `/u/5653796775`，而个性域名的 SCRIPT_URI 为 `/liuyifeiofficial`。
+USER_ID 为 `5653796775`
 
 ### 运行项目
 
